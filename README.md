@@ -1,6 +1,3 @@
-### File: `README.md`
-
-```markdown
 # File Structure Generator
 
 **File Structure Generator** is a Python command-line tool that allows users to easily **generate** a file structure from a directory or **create** a file structure from a provided JSON or formatted string file. 
@@ -207,7 +204,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Support for more file structure formats (e.g., YAML).
 - Include content templates when creating files.
 - Add interactive prompts for generating file structures.
-```
 
 
 ### Key Highlights of the README:
