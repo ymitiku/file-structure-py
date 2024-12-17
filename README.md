@@ -58,17 +58,17 @@ Generate the file structure of an existing directory. The output can be displaye
 
 - Generate and print a file structure as JSON:
    ```bash
-   python -m file_structure_py.main generate ./my_project
+   file-structure-py generate ./my_project
    ```
 
 - Save the file structure to `output.json`:
    ```bash
-   python -m file_structure_py.main generate ./my_project --output output.json
+   file-structure-py generate ./my_project --output output.json
    ```
 
 - Print the file structure as a tree-formatted string:
    ```bash
-   python -m file_structure_py.main generate ./my_project --string
+   file-structure-py generate ./my_project --string
    ```
 
 #### Output Example (Tree-Formatted):
@@ -95,12 +95,12 @@ Create a directory and file layout based on a JSON file or a tree-formatted stri
 
 - Create a file structure from a JSON file:
    ```bash
-   python -m file_structure_py.main create file_structure.json ./new_project
+   file-structure-py create file_structure.json ./new_project
    ```
 
 - Create a file structure from a tree-formatted text file:
    ```bash
-   python -m file_structure_py.main create structure.txt ./new_project
+   file-structure-py create structure.txt ./new_project
    ```
 
 #### Input Example (Tree-Formatted String):
@@ -125,7 +125,7 @@ file-structure-py/
 ### Step 1: Generate File Structure
 1. Run the `generate` command on your directory:
    ```bash
-   python -m file_structure_py.main generate ./my_project --output structure.json
+   file-structure-py generate ./my_project --output structure.json
    ```
 
    This will save the file structure in `structure.json`.
@@ -133,7 +133,7 @@ file-structure-py/
 ### Step 2: Create File Structure
 2. Use the saved JSON to recreate the file structure in a new location:
    ```bash
-   python -m file_structure_py.main create structure.json ./new_project
+   file-structure-py create structure.json ./new_project
    ```
 
    A new directory `new_project` will be created with the same structure.
@@ -189,14 +189,14 @@ Contributions are welcome! To contribute:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the Apache 2.0 License. See the [LICENSE](LICENSE) file for more details.
 
 
 ## Contact
 
-- **Maintainer**: Your Name
-- **Email**: your.email@example.com
-- **GitHub**: [Your Username](https://github.com/your-username)
+- **Maintainer**: Mitiku Yohannes
+- **Email**: se.mitiku.yohannes@gmail.com
+- **GitHub**: [Mitiku Yohannes](https://github.com/ymitiku)
 
 
 ## Future Improvements
@@ -205,16 +205,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Include content templates when creating files.
 - Add interactive prompts for generating file structures.
 
-
-### Key Highlights of the README:
-1. **Clear Introduction**: Explains the tool's purpose and features.
-2. **Installation Steps**: Simple and concise.
-3. **Usage Section**:
-   - Provides command examples with outputs.
-   - Covers both generating and creating file structures.
-4. **Workflow Example**: Demonstrates the tool's practical use.
-5. **File Structure**: Reflects the project's organization.
-6. **Testing Instructions**: Ensures users know how to run tests.
-7. **Contribution Guidelines**: Encourages community involvement.
-8. **License and Contact Information**: Makes the project professional.
 
