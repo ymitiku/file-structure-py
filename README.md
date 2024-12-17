@@ -7,7 +7,6 @@
 
 This tool is ideal for quickly defining or replicating directory layouts for projects, templates, and more.
 
----
 
 ## Features
 
@@ -21,7 +20,6 @@ This tool is ideal for quickly defining or replicating directory layouts for pro
 
 - **User-Friendly CLI**: Run commands via a simple and intuitive command-line interface.
 
----
 
 ## Installation
 
@@ -48,7 +46,6 @@ This tool is ideal for quickly defining or replicating directory layouts for pro
    python -m file_structure_py.main --help
    ```
 
----
 
 ## Usage
 
@@ -90,7 +87,6 @@ my_project/
 └── README.md
 ```
 
----
 
 ### 2. Create File Structure
 
@@ -126,7 +122,6 @@ file-structure-py/
 └── README.md
 ```
 
----
 
 ## Example Workflow
 
@@ -146,7 +141,6 @@ file-structure-py/
 
    A new directory `new_project` will be created with the same structure.
 
----
 
 ## File Structure of This Project
 
@@ -167,7 +161,6 @@ file-structure-py/
 └── LICENSE
 ```
 
----
 
 ## Testing
 
@@ -183,7 +176,6 @@ Unit tests are included for the `file_structure_utils.py` module. To run tests:
    pytest tests
    ```
 
----
 
 ## Contributing
 
@@ -197,13 +189,11 @@ Contributions are welcome! To contribute:
 3. Commit changes and push to your fork.
 4. Open a Pull Request.
 
----
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
----
 
 ## Contact
 
@@ -211,7 +201,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - **Email**: your.email@example.com
 - **GitHub**: [Your Username](https://github.com/your-username)
 
----
 
 ## Future Improvements
 
@@ -220,7 +209,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Add interactive prompts for generating file structures.
 ```
 
----
 
 ### Key Highlights of the README:
 1. **Clear Introduction**: Explains the tool's purpose and features.
