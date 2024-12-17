@@ -35,12 +35,12 @@ This tool is ideal for quickly defining or replicating directory layouts for pro
 
 2. Install required dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install .
    ```
 
-3. Run the application using Python:
+3. Run the application using cmd:
    ```bash
-   python -m file_structure_py.main --help
+   file-structure-py --help
    ```
 
 
