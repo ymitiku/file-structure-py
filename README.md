@@ -29,7 +29,7 @@ This tool is ideal for quickly defining or replicating directory layouts for pro
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/file-structure-py.git
+   git clone https://github.com/ymitiku/file-structure-py.git
    cd file-structure-py
    ```
 
