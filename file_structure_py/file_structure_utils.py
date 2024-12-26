@@ -205,6 +205,28 @@ def generate_file_structure(base_dir: str=".", string: bool = False) -> dict :
     return structure
 
 
+def get_file_paths(file_structure, base_path=""):
+    """
+    Recursively traverse the file structure dictionary and return a list of file paths.
+
+    Args:
+        file_structure (dict): The dictionary representing the file structure.
+        base_path (str): The current base path being traversed (used for recursion).
+
+    Returns:
+        list: A list of file paths.
+    """
+    file_paths = []
+
+    for key, value in file_structure.items():
+        current_path = f"{base_path}/{key}" if base_path else key
+        if isinstance(value, dict):
+            # Recursively process subdirectories
+            file_paths.extend(get_file_paths(value, current_path))
+        else:
+            # Add file path
+            file_paths.append(current_path)
+
 
 
 if __name__ == "__main__":
