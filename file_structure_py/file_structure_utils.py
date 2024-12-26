@@ -226,6 +226,7 @@ def get_file_paths(file_structure, base_path=""):
         else:
             # Add file path
             file_paths.append(current_path)
+    return file_paths
 
 
 
